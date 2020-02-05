@@ -1,0 +1,32 @@
+{
+  "name": "data-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch & nodemon dist",
+    "test": "tsc && mocha dist/**/*.spec.js",
+    "lint": "eslint src --ext ts",
+    "tsc": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "7.0.22",
+    "express": "^4.17.1",
+    "express-api-versioning": "^2.0.0",
+    "nodemon": "1.11.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "2.2.41",
+    "@types/node": "7.0.22",
+    "eslint": "^4.0.0",
+    "mocha": "3.4.2",
+    "supertest": "3.0.0",
+    "tsc": "1.20150623.0",
+    "typescript": "2.3.3",
+    "typescript-eslint-parser": "3.0.0"
+  }
+}
